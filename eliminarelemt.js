@@ -6,3 +6,6 @@ function eliminarElemento(array, posicion) {
     console.log(array);
 
 }
+let utiles = ['lapiz', 'goma', 'regla', 'cuaderno'];
+let posicionusuario = prompt("Ingrese la posicion del elemento que desea eliminar:");
+eliminarElemento(utiles, posicionusuario); 
