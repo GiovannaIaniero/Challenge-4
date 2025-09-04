@@ -7,5 +7,5 @@ function eliminarElemento(array, posicion) {
 
 }
 let utiles = ['lapiz', 'goma', 'regla', 'cuaderno'];
-let posicionusuario = prompt("Ingrese la posicion del elemento que desea eliminar:");
+let posicionusuario = parseInt(prompt("Ingrese la posicion del elemento que desea eliminar:"));
 eliminarElemento(utiles, posicionusuario); 
